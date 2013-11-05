@@ -1,0 +1,2 @@
+sbcl --load al-test.lisp
+sbcl --load ml13-test.lisp

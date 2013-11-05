@@ -1,0 +1,14 @@
+acl82 -s al-test.lisp
+acl82 -s ml13-test.lisp
+acl90 -s al-test.lisp
+acl90 -s ml13-test.lisp
+ccl -l al-test.lisp
+ccl -l ml13-test.lisp
+clisp -i ~/.clisprc.lisp -on-error debug al-test.lisp
+clisp -i ~/.clisprc.lisp -on-error debug ml13-test.lisp
+ecl -load al-test.lisp
+ecl -load ml13-test.lisp
+lisp -load al-test.lisp
+# lisp -load ml13-test
+sbcl --load al-test.lisp
+sbcl --load ml13-test.lisp

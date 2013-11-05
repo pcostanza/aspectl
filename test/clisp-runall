@@ -1,0 +1,2 @@
+clisp -i ~/.clisprc.lisp -on-error debug al-test.lisp
+clisp -i ~/.clisprc.lisp -on-error debug ml13-test.lisp
