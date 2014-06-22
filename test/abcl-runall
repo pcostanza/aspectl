@@ -1,0 +1,2 @@
+abcl --load al-test.lisp --batch
+abcl --load ml13-test.lisp --batch

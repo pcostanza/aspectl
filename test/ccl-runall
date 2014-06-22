@@ -1,2 +1,2 @@
-ccl -l al-test.lisp
-ccl -l ml13-test.lisp
+ccl -l al-test.lisp -e '(quit)'
+ccl -l ml13-test.lisp -e '(quit)'

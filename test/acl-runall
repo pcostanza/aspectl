@@ -1,0 +1,2 @@
+acl90 --debug-startup -L ~/.clinit.cl -L al-test.lisp --kill
+acl90 --debug-startup -L ~/.clinit.cl -L ml13-test.lisp --kill

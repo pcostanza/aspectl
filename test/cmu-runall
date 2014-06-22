@@ -1,2 +1,2 @@
-lisp -load al-test.lisp
-# lisp -load ml13-test
+lisp -load al-test.lisp -eval '(quit)'
+# lisp -load ml13-test -eval '(quit)'

@@ -1,0 +1,2 @@
+ecl -shell al-test.lisp
+ecl -shell ml13-test.lisp
