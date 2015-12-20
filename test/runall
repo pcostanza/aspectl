@@ -1,7 +1,7 @@
 abcl --load al-test.lisp --batch
 abcl --load ml13-test.lisp --batch
-acl90 --debug-startup -L ~/.clinit.cl -L al-test.lisp --kill
-acl90 --debug-startup -L ~/.clinit.cl -L ml13-test.lisp --kill
+acl --debug-startup -L ~/.clinit.cl -L al-test.lisp --kill
+acl --debug-startup -L ~/.clinit.cl -L ml13-test.lisp --kill
 ccl -l al-test.lisp -e '(quit)'
 ccl -l ml13-test.lisp -e '(quit)'
 clisp -i ~/.clisprc.lisp -on-error debug al-test.lisp
