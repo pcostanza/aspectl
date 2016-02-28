@@ -3,7 +3,7 @@ NOTE: AspectL is deprecated, because the pointcut functionality of AspectL does 
 
 AspectL is a library that provides some experimental aspect-oriented extensions for Common Lisp / CLOS. See [an overview](https://common-lisp.net/project/closer/aspectl-overview.html "AspectL Overview") for a description of its functionality.
 
-ContextL depends on [Closer to MOP](https://github.com/pcostanza/closer-mop "Closer to MOP"), and is therefore only supported by the Common Lisp implementations that are supported by that library.
+AspectL depends on [Closer to MOP](https://github.com/pcostanza/closer-mop "Closer to MOP"), and is therefore only supported by the Common Lisp implementations that are supported by that library.
 
 New in version 0.75.0:
 * New version number based on semantic versioning.
