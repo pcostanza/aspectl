@@ -1,2 +1,2 @@
-ecl -shell al-test.lisp
-ecl -shell ml13-test.lisp
+ecl -debug -shell al-test.lisp
+ecl -debug -shell ml13-test.lisp

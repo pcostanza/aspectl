@@ -6,8 +6,8 @@ ccl -l al-test.lisp -e '(quit)'
 ccl -l ml13-test.lisp -e '(quit)'
 clisp -i ~/.clisprc.lisp -on-error debug al-test.lisp
 clisp -i ~/.clisprc.lisp -on-error debug ml13-test.lisp
-ecl -shell al-test.lisp
-ecl -shell ml13-test.lisp
+ecl -debug -shell al-test.lisp
+ecl -debug -shell ml13-test.lisp
 lisp -load al-test.lisp -eval '(quit)'
 # lisp -load ml13-test -eval '(quit)'
 sbcl --load al-test.lisp --quit
